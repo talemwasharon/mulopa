@@ -1,0 +1,109 @@
+.header{
+    background-color: aqua;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline; block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: gold;
+    color: green;
+
+}
+nav ul li a:hover{
+    background-color: brown;
+    color: chocolate;
+}
+.h1styles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}h1.some{
+    background-color: blue;
+}
+img{
+    width: 390px;
+    height: 300px;
+    float: left;
+}
+ .side{
+    background-color: chocolate;
+    width: 510px;
+    height: 300px;
+    float: right;
+    margin-right: 5.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: red;
+    text-align: center;
+     
+    
+ }
+ .footer{
+    background-color: darksalmon;
+    width: 300%;
+    height: 50%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: blue;
+ }
+ body{
+    background-color: aquamarine;
+ }
+ li{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: brown;
+ }
+ .img{
+    padding-top: 10px;
+    margin-trim: 10px;
+ }
+ .h1{
+    color: red;
+ }
+ .h2{
+    color: blue;
+ }
+ .p{
+    color: darkorange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+ }
+.ul{
+   color: goldenrod;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 40px 20px 0 20px;
+   
+}
+.container .heading h3{
+ font-size: 3em;
+ font-weight: bolder; 
+ border-bottom: 3px solid #222;
+ padding-bottom: 10px;
+}
+.container .heading h3 span{
+   font-weight: 100;
+}
+.container .box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+
+}
+.container .box .dream{
+   display: flex;
+   flex-direction: column;
+   width: 32.5%;
+   padding-bottom: 15px;
+   border-radius: 5px;
+}
